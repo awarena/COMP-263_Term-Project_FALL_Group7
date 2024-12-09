@@ -15,7 +15,7 @@ class ASLFeatureExtractor:
         - device (torch.device, optional): Compute device
         """
         # Use the same ContrastiveNetwork from training script
-        from asl_self_supervised_learning import ContrastiveNetwork
+        from asl_train_self_supervised import ContrastiveNetwork
         
         # Device configuration
         self.device = device or torch.device('cuda' if torch.cuda.is_available() else 'cpu')
