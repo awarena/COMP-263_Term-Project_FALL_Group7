@@ -20,4 +20,7 @@ https://www.kaggle.com/datasets/risangbaskoro/wlasl-processed/data
 ### Self-supervised
 
 ### SOTA
-Run 'SATO.py'
+1. Download and extract the dataset, put it in a folder structure like this: data/input/{your_dataset}
+2. Run 'frames_extraction_supervised.py'
+3. Run 'sota.py'
+
